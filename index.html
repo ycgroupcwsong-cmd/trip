@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#fff5dd" />
+<title>우리의 홍천 여행 취향 테스트 🍒</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@500;600;700;800;900&display=swap');
+:root{--ink:#493e54;--sub:#82768b;--pink:#ff86aa;--deep:#f46c97;--cream:#fffaf1;--yellow:#ffdb7a;--line:#eadfe3;--lilac:#e6d9ff;--mint:#d9f5e8;--shadow:0 13px 0 rgba(103,80,89,.07),0 16px 34px rgba(128,89,102,.09)}
+*{box-sizing:border-box}html{min-height:100%;background:#fff5df}body{margin:0;min-height:100vh;color:var(--ink);font-family:'Nunito','Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:radial-gradient(circle at 8% 6%,#ffdae8 0 11%,transparent 28%),radial-gradient(circle at 92% 18%,#dbf5e7 0 9%,transparent 24%),#fff5df}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.43}.shell{max-width:760px;margin:0 auto;padding:26px 18px 76px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}.logo{font-family:Jua,sans-serif;font-size:20px;letter-spacing:-.5px;display:flex;align-items:center;gap:8px}.pill{font-size:12px;font-weight:900;padding:9px 13px;border:2px solid #eddde1;border-radius:30px;background:#fffdf8;white-space:nowrap}.card{background:#fffefa;border:2px solid #f0e1e5;border-radius:30px;box-shadow:var(--shadow);padding:32px 33px;position:relative;overflow:hidden}.hero{text-align:center;padding:44px 34px}.hero .art{font-size:78px;line-height:1.6;filter:drop-shadow(0 8px 0 #fff0b9)}.eyebrow{display:inline-block;color:#d76091;background:#ffe7ef;border-radius:20px;font-weight:900;font-size:12px;padding:8px 14px;letter-spacing:.4px}.title{font-family:Jua,'Malgun Gothic',sans-serif;font-size:clamp(31px,5.8vw,49px);font-weight:400;line-height:1.24;margin:20px 0 12px;word-break:keep-all}.title em{font-style:normal;color:#f16d94}.desc{color:var(--sub);font-size:15px;line-height:1.85;word-break:keep-all}.tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:22px 0}.tag{background:#fff2ca;border:1.5px solid #f8df99;border-radius:50px;padding:8px 13px;font-size:12px;font-weight:800}.btn{border:0;background:var(--pink);color:white;border-radius:19px;padding:15px 20px;min-height:55px;font-size:16px;font-weight:900;box-shadow:0 5px 0 #e75d87;transition:transform .13s,box-shadow .13s;letter-spacing:-.3px}.btn:not(:disabled):active{transform:translateY(4px);box-shadow:0 1px 0 #e75d87}.btn-secondary{color:var(--ink);background:#fff3df;box-shadow:0 5px 0 #e9d9bf;border:1px solid #f1e4cd}.btn-secondary:active{box-shadow:0 1px 0 #e9d9bf}.btn-outline{color:var(--ink);background:white;border:2px solid #eadce3;box-shadow:none}.full{width:100%}.hidden{display:none!important}.mini{font-size:12px;color:#a79aa3}.step-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}.counter{font-weight:900;font-size:13px;color:#a17b91}.progress{height:13px;border-radius:30px;background:#f5e7e7;overflow:hidden;border:1px solid #f0dfe3;margin-bottom:26px}.progress-bar{height:100%;width:0;background:linear-gradient(90deg,#ffba8b,#ff84ab);border-radius:30px;transition:width .2s}.section-chip{display:inline-flex;align-items:center;gap:7px;background:#eee5ff;color:#715a94;border-radius:50px;padding:8px 14px;font-size:13px;font-weight:900}.question-art{font-size:45px;line-height:1.35;margin:23px 0 9px}.question-title{font-family:Jua,'Malgun Gothic',sans-serif;font-weight:400;font-size:clamp(25px,4.5vw,34px);line-height:1.42;word-break:keep-all;margin:0 0 13px}.help{font-size:13px;color:var(--sub);margin-bottom:21px;line-height:1.7}.answers{display:grid;gap:11px}.answer{position:relative;text-align:left;border:2px solid #f1e5e6;background:#fffaf8;border-radius:17px;min-height:60px;padding:15px 18px;display:flex;align-items:center;gap:12px;font-size:14px;font-weight:800;color:var(--ink);line-height:1.5;transition:all .15s;word-break:keep-all}.answer:hover{border-color:#f1adc0;background:#fff5f8}.answer.selected{border-color:#ff7da8;background:#ffedf4;box-shadow:0 4px 0 #ffd2df}.answer .symbol{width:27px;height:27px;flex:0 0 27px;display:grid;place-items:center;border:2px solid #eadce1;border-radius:9px;background:white;font-size:12px;font-weight:900;color:#b09aa8}.answer.selected .symbol{border-color:#ff85aa;background:#ff85aa;color:white}.nav{display:flex;gap:12px;margin-top:28px}.nav .btn{flex:1}.input{width:100%;border:2px solid #f0e2e7;background:#fff9f8;border-radius:17px;padding:17px;font-size:16px;color:var(--ink);outline:none}.input:focus{border-color:#ff8ba8;background:white}textarea.input{min-height:120px;resize:vertical}.error{font-size:13px;color:#d54470;margin-top:9px;font-weight:800}.divider{height:2px;background:#f6edf0;margin:22px 0}.result-emoji{font-size:83px;text-align:center;line-height:1.5}.result-title{text-align:center;font-family:Jua,sans-serif;font-size:39px;font-weight:400;margin:10px 0;color:#f16d94}.result-sub{text-align:center;color:#83738a;line-height:1.8}.traits{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}.trait{background:#faf3fb;border:1.5px solid #ecdfef;padding:17px 14px;border-radius:17px}.trait:nth-child(2){background:#f0faf5;border-color:#d9ede2}.trait:nth-child(3){background:#fff6e3;border-color:#f5e7c7}.trait:nth-child(4){background:#fff0f4;border-color:#f3dce5}.trait strong{font-size:13px;display:block;margin-bottom:7px}.trait span{color:#7d6f85;font-size:13px;line-height:1.5}.report{background:#fff6dc;padding:18px;border-radius:18px;margin:20px 0;font-size:13px;line-height:1.9}.fine{font-size:12px;line-height:1.7;color:#8c8090}.decor{position:absolute;pointer-events:none;opacity:.42;font-size:24px}.d1{top:17px;left:20px}.d2{top:17px;right:20px}.footer{text-align:center;font-size:12px;color:#ab9399;margin-top:30px}.checkline{margin-top:16px;display:flex;align-items:flex-start;gap:9px;font-size:13px;color:#82768b;line-height:1.5}.checkline input{width:18px;height:18px;accent-color:#ff83ab;flex:0 0 18px}.section-roadmap{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:24px 0}.road{padding:13px;border-radius:15px;border:1.5px solid #eee1e1;background:#fffaf6;font-weight:800;font-size:12px;text-align:left}.road span{font-size:19px;margin-right:4px}.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#44364e;color:white;padding:13px 20px;border-radius:14px;font-weight:800;font-size:13px;z-index:8;box-shadow:0 8px 30px #0002;max-width:90%;text-align:center}.top-btn{border:0;background:none;font-size:12px;font-weight:900;color:#a17b91;padding:5px 0}.muted-box{padding:15px;background:#faf5f4;border-radius:15px;color:#756877;font-size:13px;line-height:1.8}.smallcaps{color:#b88da5;font-weight:900;font-size:12px;letter-spacing:1px}.confetti{position:relative}.confetti:before{content:'✿ ✦ ✿';position:absolute;top:-4px;left:12px;color:#ff9db9;letter-spacing:13px}.confetti:after{content:'✿ ✧ ✿';position:absolute;top:-5px;right:0;color:#b0db9e;letter-spacing:10px}@media(max-width:530px){.shell{padding:17px 13px 64px}.card{padding:25px 19px;border-radius:25px}.hero{padding:37px 21px}.hero .art{font-size:67px}.logo{font-size:17px}.pill{font-size:10px;padding:8px 10px}.question-art{font-size:41px;margin-top:15px}.answer{padding:14px 12px;min-height:60px;font-size:13px}.nav{gap:9px}.nav .btn{padding:12px 9px;font-size:14px}.traits{gap:8px}.trait{padding:12px}.result-title{font-size:32px}}
+</style>
+</head>
+<body>
+<main class="shell">
+  <header class="top"><div class="logo">🍒 말랑콩떡 홍천여행</div><div class="pill">🐻 2박 3일 취향 탐구</div></header>
+  <section id="intro" class="card hero">
+    <span class="decor d1">🌼</span><span class="decor d2">☁️</span>
+    <div class="eyebrow">WE ARE GOING TO HONGCHEON!</div>
+    <div class="art">🐻🍓🏕️</div>
+    <h1 class="title">우리 여행,<br><em>얼마나 잘 맞을까?</em></h1>
+    <p class="desc">맛집파? 액티비티파? 숙소 콕 파티파?<br>여행 취향을 콕콕 골라주면<br>홍천 2박 3일 계획이 더 재밌어져요! 💛</p>
+    <div class="tags"><span class="tag">🧁 총 45문항</span><span class="tag">📱 모바일 OK</span><span class="tag">🎀 나만의 결과 카드</span></div>
+    <div class="section-roadmap" id="roadmap"></div>
+    <button class="btn full" id="start">내 여행 취향 알아보기 →</button>
+    <p class="fine">💌 답변은 이 브라우저에 임시 저장돼요. 최종 완료 후 CSV로 저장할 수 있어요.<br>구글 시트 자동 전송은 별도 연결이 필요합니다.</p>
+  </section>
+  <section id="quiz" class="card hidden" aria-live="polite">
+    <div class="step-head"><span id="section" class="section-chip">🍗 음식</span><span id="counter" class="counter">01 / 45</span></div>
+    <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+    <span class="smallcaps">TODAY'S QUESTION</span>
+    <div id="q-art" class="question-art">🍗</div>
+    <h2 id="q-title" class="question-title"></h2>
+    <div id="q-help" class="help"></div>
+    <div id="answers" class="answers"></div>
+    <p id="error" class="error hidden" role="alert"></p>
+    <div class="nav"><button class="btn btn-secondary" id="prev">← 이전</button><button class="btn" id="next">다음 질문 →</button></div>
+    <p class="fine" style="text-align:center;margin-top:20px">정답은 없어요! 마음 가는 대로 골라주세요 ✨</p>
+  </section>
+  <section id="result" class="card hidden">
+    <div class="eyebrow">🎉 나의 홍천 여행 캐릭터</div>
+    <div class="result-emoji confetti" id="result-emoji">🐻</div>
+    <h2 class="result-title" id="result-title">결과</h2>
+    <p class="result-sub" id="result-sub"></p>
+    <div class="traits" id="traits"></div>
+    <div class="report" id="report"></div>
+    <div class="muted-box" id="save-status"></div>
+    <div class="nav"><button class="btn btn-secondary" id="edit">✎ 답변 수정</button><button class="btn" id="download">📥 CSV 저장</button></div>
+    <button class="btn btn-outline full" id="share" style="margin-top:15px">💌 결과 공유하기</button>
+    <button class="top-btn" id="reset" style="display:block;margin:19px auto 0">처음부터 다시 하기</button>
+  </section>
+  <div class="footer">made with 🍓 & a little travel magic · 홍천 여행 취향 테스트</div>
+</main>
+<div id="toast" class="toast hidden" role="status"></div>
+<script>
+'use strict';
+// GOOGLE SHEET 연결 준비: Google Apps Script 웹앱 URL을 넣으면 완료 시 POST 전송을 시도합니다.
+// 주의: 배포/수집을 시작하기 전에 Apps Script 서버측 검증·스팸방지·개인정보 고지를 설정하세요.
+const SHEET_WEB_APP_URL = '';
+const QUESTIONS = [
+// 1. 음식 (6)
+{cat:'🍗 음식 취향',emoji:'🍖',q:'홍천에서 가장 기대되는 한 끼는?',options:['숙소에서 고기 구워 먹기','홍천 현지 맛집 탐방','배달·포장해서 편하게 먹기','분위기 좋은 식당에서 먹기'],scores:['social','food','relax','explore']},
+{cat:'🍗 음식 취향',emoji:'🍜',q:'음식 선택에서 제일 중요한 건?',options:['무조건 맛있어야 한다','가격 대비 만족도가 중요하다','빠르고 편한 게 최고다','평소 못 먹는 특별한 메뉴가 좋다'],scores:['food','relax','relax','explore']},
+{cat:'🍗 음식 취향',emoji:'🥩',q:'홍천에서 먹고 싶은 메뉴를 골라주세요!',options:['한우·화로구이','막국수·메밀 요리','닭갈비·닭요리','숙소 바비큐','카페 디저트·브런치','그 외 현지 음식'],type:'multi',max:3,help:'최대 3개까지 선택 가능해요.'},
+{cat:'🍗 음식 취향',emoji:'🍳',q:'2박 3일 식사는 어떻게 해결하면 좋을까요?',options:['외식 위주! 맛집을 많이 가자','하루 한 끼는 숙소에서 직접 요리','숙소 바비큐는 꼭 한 번!','그때그때 간편하게 정하자'],scores:['food','social','social','relax']},
+{cat:'🍗 음식 취향',emoji:'🍕',q:'저녁에 야식이 당긴다면?',options:['제대로 된 안주와 야식 준비','치킨·피자 배달','과자·라면 정도면 충분','야식 없이 푹 쉬기'],scores:['social','social','relax','relax']},
+{cat:'🍗 음식 취향',emoji:'📍',q:'맛집을 위해 어느 정도 이동할 수 있나요?',options:['걸어서 가까운 곳만','차로 15~20분 이내','차로 30~40분 정도','맛집이면 편도 1시간도 가능'],scores:['relax','relax','food','food']},
+// 2. 활동 (6)
+{cat:'🎢 활동·액티비티',emoji:'🎢',q:'여행에서 가장 신나는 순간은?',options:['짜릿한 레저 체험','관광지·카페 투어','숙소에서 놀고 쉬기','맛집 찾아 드라이브'],scores:['active','explore','relax','food']},
+{cat:'🎢 활동·액티비티',emoji:'🌊',q:'비용과 운영 조건이 맞다면 하고 싶은 활동은?',options:['ATV·오프로드','짚라인·스릴 체험','수상레저·물놀이','트레킹·산책','실내 스포츠·게임','관광·카페','숙소에서 휴식'],type:'multi',max:3,help:'최대 3개를 골라주세요. 계절과 운영 여부는 추후 확인해요.'},
+{cat:'🎢 활동·액티비티',emoji:'🎟️',q:'유료 액티비티는 몇 개가 딱 좋을까요?',options:['없어도 괜찮다','1개 정도','2개 정도','3개 이상!'],scores:['relax','explore','active','active']},
+{cat:'🎢 활동·액티비티',emoji:'🏃',q:'야외 활동은 어느 정도 좋아하나요?',options:['등산·트레킹도 좋아!','가벼운 산책이 좋아','차 타고 풍경 감상이 좋아','실내 위주로 놀고 싶어'],scores:['active','explore','relax','relax']},
+{cat:'🎢 활동·액티비티',emoji:'🧗',q:'낯선 활동을 제안받으면?',options:['무조건 해보자!','재미있어 보이면 참여','구경·사진만 찍어도 좋아','익숙한 활동이 편해'],scores:['active','active','explore','relax']},
+{cat:'🎢 활동·액티비티',emoji:'🏓',q:'친구들과 다 함께 할 활동은?',options:['팀 대항 게임·레크리에이션','물놀이·스포츠','보드게임·카드게임','각자 자유시간 보내기'],scores:['social','active','social','relax']},
+// 3. 숙소 (5)
+{cat:'🏡 숙소 취향',emoji:'🏡',q:'마음이 가는 숙소 타입은?',options:['독채 펜션·풀빌라','시설 좋은 호텔·리조트','자연 속 감성 숙소','가성비 좋은 일반 펜션'],scores:['social','relax','explore','relax']},
+{cat:'🏡 숙소 취향',emoji:'🛁',q:'숙소를 고를 때 가장 중요한 것은?',options:['넓은 거실과 모임 공간','깨끗한 침구와 잠자리','수영장·스파·바비큐 시설','합리적인 가격과 위치'],scores:['social','relax','social','relax']},
+{cat:'🏡 숙소 취향',emoji:'🧸',q:'숙소에 꼭 있었으면 하는 시설은?',options:['개별 침대·분리된 침실','바비큐 시설','수영장·스파','넓은 거실·놀이 공간','테라스·야외 공간','딱히 없어도 괜찮아'],type:'multi',max:3,help:'최대 3개 선택! 실제 숙소 필터링에 사용할게요.'},
+{cat:'🏡 숙소 취향',emoji:'🌙',q:'여행 중 숙소에서 보내는 시간은?',options:['숙소가 좋으면 하루 종일도 좋아','저녁부터 숙소에서 놀고 싶어','거의 잠만 자도 괜찮아','일정에 따라 달라'],scores:['relax','social','active','explore']},
+{cat:'🏡 숙소 취향',emoji:'🧳',q:'2박 동안 숙소는 어떻게 할까요?',options:['한 숙소에서 2박! 짐 옮기기 싫어','서로 다른 숙소에서 1박씩','동선·가격이 좋으면 어느 쪽이든','숙소보다 놀 거리가 더 중요'],scores:['relax','explore','relax','active']},
+// 4. 일정 (6)
+{cat:'🗓️ 일정 밀도',emoji:'🕰️',q:'하루에 몇 곳 정도 들르면 좋을까요?',options:['4곳 이상 빽빽하게','2~3곳 알차게','1곳 정도만 가볍게','숙소에서 쉬어도 충분해'],scores:['active','explore','relax','relax']},
+{cat:'🗓️ 일정 밀도',emoji:'☀️',q:'아침 일정은 언제 시작할까요?',options:['오전 8시 이전부터 출발!','오전 9~10시','오전 11시 이후','일어나면 그때 정하자'],scores:['active','explore','relax','relax']},
+{cat:'🗓️ 일정 밀도',emoji:'🎒',q:'가장 알차게 보내고 싶은 날은?',options:['첫째 날부터 달리자','둘째 날 하루에 집중','마지막 날도 관광 후 귀가','3일 내내 적당히 쉬엄쉬엄'],scores:['active','active','explore','relax']},
+{cat:'🗓️ 일정 밀도',emoji:'🛋️',q:'하루 중 자유 시간은 얼마나 있으면 좋을까요?',options:['별도 자유 시간 없이 함께','하루 1~2시간 정도','하루 3시간 이상','자유 시간이 최대한 많으면 좋겠어'],scores:['social','explore','relax','relax']},
+{cat:'🗓️ 일정 밀도',emoji:'🚙',q:'관광·체험 장소까지 편도 이동 허용 시간은?',options:['15분 이내로 가까운 곳','30분 정도까지','1시간 정도까지','좋은 곳이면 그 이상도 OK'],scores:['relax','explore','explore','active']},
+{cat:'🗓️ 일정 밀도',emoji:'📒',q:'여행 계획은 얼마나 자세해야 마음이 편해요?',options:['시간별로 상세 일정표','주요 장소·시간만 미리 확정','큰 방향만 정하고 유동적으로','즉흥 여행이 최고!'],scores:['active','explore','relax','explore']},
+// 5. 홍천 (5)
+{cat:'🌲 홍천 로컬 취향',emoji:'🌲',q:'홍천에서 가장 해보고 싶은 것은?',options:['비발디파크 등 레저 시설','수타사 등 자연·관광 명소','홍천강 인근 산책·드라이브','현지 맛집·카페 탐방'],scores:['active','explore','relax','food']},
+{cat:'🌲 홍천 로컬 취향',emoji:'🍃',q:'홍천의 자연은 어떻게 즐기고 싶나요?',options:['트레킹·산길 걷기','강변 산책·야외 휴식','전망 카페·드라이브','숙소에서 경치만 바라봐도 좋아'],scores:['active','explore','explore','relax']},
+{cat:'🌲 홍천 로컬 취향',emoji:'📸',q:'이번 홍천 여행에서 남기고 싶은 추억은?',options:['다 같이 찍은 단체 사진','짜릿했던 체험의 추억','맛있게 먹은 음식 사진','같이 웃고 떠든 편안한 시간'],scores:['social','active','food','social']},
+{cat:'🌲 홍천 로컬 취향',emoji:'🗺️',q:'방문하고 싶은 홍천 스팟 유형은?',options:['대표 관광지·명소','한적한 숲·강·자연','예쁜 카페·사진 명소','활동적인 레저 장소','홍천 로컬 시장·먹거리','굳이 관광 안 해도 좋아'],type:'multi',max:3,help:'최대 3개 선택해주세요.'},
+{cat:'🌲 홍천 로컬 취향',emoji:'🪵',q:'새로운 지역에 놀러 가면 어떤 편인가요?',options:['대표 명소를 골고루','그 지역만의 특색을 찾기','사람 적은 숨은 장소 찾기','어디든 일행과 함께면 좋아'],scores:['explore','food','explore','social']},
+// 6. 저녁 (4)
+{cat:'🍻 음주·저녁 시간',emoji:'🍻',q:'숙소에서의 저녁, 어떤 분위기가 좋아요?',options:['술 마시며 밤새 수다','맛있는 음식과 가벼운 술','보드게임·영화·게임','조용히 쉬면서 일찍 취침'],scores:['social','food','social','relax']},
+{cat:'🍻 음주·저녁 시간',emoji:'🥤',q:'술자리에서 내 스타일은?',options:['술자리 적극 참여!','가볍게 한두 잔','안마셔도 분위기는 좋아','술자리보단 다른 활동을 선호'],scores:['social','social','social','relax']},
+{cat:'🍻 음주·저녁 시간',emoji:'🌜',q:'숙소에서 보통 몇 시까지 놀고 싶어요?',options:['새벽까지 가능','자정~새벽 1시 정도','오후 10~11시 정도','그날 컨디션 따라 정해요'],scores:['social','social','relax','relax']},
+{cat:'🍻 음주·저녁 시간',emoji:'🎲',q:'단체 게임이나 레크리에이션이 있다면?',options:['적극적으로 즐길래!','재밌으면 참여할래','관전도 좋아','별로 선호하지 않아'],scores:['social','social','relax','relax']},
+// 7. 예산·운영 (4)
+{cat:'💰 예산·단체 운영',emoji:'💸',q:'여행 경비는 어디에 가장 많이 쓰고 싶나요?',options:['숙소 퀄리티','맛있는 음식','액티비티·체험','전체적으로 가성비 우선'],scores:['relax','food','active','relax']},
+{cat:'💰 예산·단체 운영',emoji:'👯',q:'단체 이동은 어떤 방식이 편할까요?',options:['가능하면 모든 일정 함께','핵심 일정만 함께하고 자유 시간','취향별로 팀 나눠 이동','숙소 중심으로 이동 최소화'],scores:['social','explore','explore','relax']},
+{cat:'💰 예산·단체 운영',emoji:'💬',q:'친구들 의견이 갈린다면 어떻게 할까요?',options:['다수결로 빠르게 결정','서로 절충안 찾기','취향별로 나누어 행동','담당자가 정해주면 따를게'],scores:['active','social','explore','relax']},
+{cat:'💰 예산·단체 운영',emoji:'💵',q:'유료 활동 1개에 낼 수 있는 비용은?',options:['무료·저비용 활동이 좋아','1만~3만원까지','3만~5만원까지','5만원 이상도 괜찮아'],scores:['relax','explore','active','active']},
+// 8. 휴게소 취향 (3)
+{cat:'🛣️ 휴게소 취향',emoji:'🚗',q:'홍천 가는 길, 휴게소는 어떻게 할까요?',options:['휴게소는 꼭 한 번 들러야지!','화장실·휴식이 필요할 때만 들르자','막히지만 않으면 한 번에 가자','다 같이 결정하면 어느 쪽이든 좋아'],help:'가는 길 정차 계획에 반영할게요.'},
+{cat:'🛣️ 휴게소 취향',emoji:'🏠',q:'집으로 돌아오는 길은 어떠세요?',options:['오는 길에도 휴게소는 꼭 들러야 해','피곤하니까 쉬었다 가는 게 좋아','휴게소 없이 한 번에 돌아가고 싶어','교통 상황과 컨디션을 보고 결정하자'],help:'귀가 일정의 여유 시간을 정하는 데 참고해요.'},
+{cat:'🛣️ 휴게소 취향',emoji:'🍢',q:'휴게소에 들른다면 가장 중요한 건?',options:['호두과자·핫바 등 휴게소 음식은 꼭 먹어야 해!','화장실·청결·주차 등 시설이 좋아야 해','커피 한 잔과 짧은 휴식이면 충분해','특별히 바라는 건 없어, 빠르게 출발하자'],help:'휴게소 선정과 머무는 시간을 정하는 데 활용해요.'},
+// 9. 추가 필수 (6)
+{cat:'💌 마지막 여행 정보',emoji:'🐻',q:'이름 또는 닉네임을 알려주세요!',type:'text',placeholder:'예) 홍천 곰돌이',required:true,maxlength:35,help:'응답자를 구분하기 위해 사용해요.'},
+{cat:'💌 마지막 여행 정보',emoji:'🚗',q:'이번 여행에서 운전할 수 있나요?',options:['가능해요','상황에 따라 가능해요','운전은 어려워요'],required:true},
+{cat:'💌 마지막 여행 정보',emoji:'🥗',q:'알레르기 또는 못 먹는 음식이 있나요?',type:'textarea',placeholder:'없으면 ‘없음’이라고 적어주세요.',required:true,maxlength:300},
+{cat:'💌 마지막 여행 정보',emoji:'🩹',q:'참여가 어려운 활동이나 주의할 점이 있나요?',type:'textarea',placeholder:'없으면 ‘없음’이라고 적어주세요. (예: 물놀이 어려움, 장거리 걷기 어려움)',required:true,maxlength:300,help:'필요한 내용만 적어주세요. 상세한 건강정보는 입력하지 않아도 됩니다.'},
+{cat:'💌 마지막 여행 정보',emoji:'👛',q:'여행 예산의 최대 상한은 얼마인가요?',options:['10만원 미만','10만~15만원 미만','15만~20만원 미만','20만~25만원 미만','25만~30만원 미만','30만원 이상'],required:true,help:'1인 기준 · 2박 3일 총액 · 교통비 포함 기준이에요.'},
+{cat:'💌 마지막 여행 정보',emoji:'🌟',q:'이번 여행에서 꼭 하고 싶은 것 딱 하나는?',type:'textarea',placeholder:'예) 다 같이 바비큐 하기 / ATV 타기 / 예쁜 카페 가기',required:true,maxlength:300}
+];
+const CATS=[['🍗','음식'],['🎢','활동'],['🏡','숙소'],['🗓️','일정'],['🌲','홍천'],['🍻','저녁'],['💰','예산'],['🛣️','휴게소'],['💌','필수 정보']];
+const storageKey='hongcheon-trip-test-v2';
+let answers={},idx=0;
+try{const stored=JSON.parse(localStorage.getItem(storageKey)||'{}');if(stored&&typeof stored==='object')answers=stored;}catch(e){}
+const $=id=>document.getElementById(id);
+const pages=['intro','quiz','result'];
+function page(p){pages.forEach(id=>$(id).classList.toggle('hidden',id!==p));window.scrollTo({top:0,behavior:'instant'});}
+function persist(){try{localStorage.setItem(storageKey,JSON.stringify(answers));}catch(e){}}
+function warn(m){$('error').textContent=m;$('error').classList.remove('hidden');}
+function clearWarn(){$('error').classList.add('hidden');}
+function showToast(m){$('toast').textContent=m;$('toast').classList.remove('hidden');setTimeout(()=>$('toast').classList.add('hidden'),2600);}
+function render(){const q=QUESTIONS[idx],v=answers[idx];$('section').textContent=q.cat;$('counter').textContent=`${String(idx+1).padStart(2,'0')} / ${QUESTIONS.length}`;$('progress-bar').style.width=((idx+1)/QUESTIONS.length*100)+'%';$('q-art').textContent=q.emoji;$('q-title').textContent=q.q;$('q-help').textContent=q.help||(q.type==='multi'?'복수 선택 가능해요.':'가장 마음에 드는 답을 골라주세요!');clearWarn();const a=$('answers');a.innerHTML='';
+if(q.type==='text'||q.type==='textarea'){const el=document.createElement(q.type==='text'?'input':'textarea');el.className='input';el.placeholder=q.placeholder||'';el.value=typeof v==='string'?v:'';el.maxLength=q.maxlength||200;el.setAttribute('aria-label',q.q);el.addEventListener('input',()=>{answers[idx]=el.value;persist();clearWarn();});a.appendChild(el);}else{q.options.forEach((s,k)=>{const chosen=q.type==='multi'?Array.isArray(v)&&v.includes(s):v===s;const b=document.createElement('button');b.type='button';b.className='answer'+(chosen?' selected':'');b.setAttribute('aria-pressed',String(chosen));const mark=document.createElement('span');mark.className='symbol';mark.textContent=chosen?'✓':q.type==='multi'?'+':String.fromCharCode(65+k);const label=document.createElement('span');label.textContent=s;b.append(mark,label);b.addEventListener('click',()=>{if(q.type==='multi'){const prev=Array.isArray(answers[idx])?answers[idx]:[];if(prev.includes(s))answers[idx]=prev.filter(x=>x!==s);else if(prev.length<(q.max||q.options.length))answers[idx]=[...prev,s];else return showToast(`최대 ${q.max}개까지 선택할 수 있어요!`);}else answers[idx]=s;persist();renderOptions();clearWarn();});a.appendChild(b);});}
+$('prev').textContent=idx===0?'처음으로':'← 이전';$('next').textContent=idx===QUESTIONS.length-1?'결과 보기 🎀':'다음 질문 →';}
+function renderOptions(){const q=QUESTIONS[idx],v=answers[idx];[...$('answers').querySelectorAll('.answer')].forEach((b,k)=>{const chosen=q.type==='multi'?Array.isArray(v)&&v.includes(q.options[k]):v===q.options[k];b.classList.toggle('selected',chosen);b.setAttribute('aria-pressed',String(chosen));b.querySelector('.symbol').textContent=chosen?'✓':q.type==='multi'?'+':String.fromCharCode(65+k);});}
+function valid(i){const q=QUESTIONS[i],v=answers[i];if(q.type==='multi')return Array.isArray(v)&&v.length>0;if(q.type==='text'||q.type==='textarea')return typeof v==='string'&&v.trim().length>0;return typeof v==='string'&&q.options.includes(v);}
+function collect(){return QUESTIONS.map((q,i)=>({number:i+1,category:q.cat,question:q.q,answer:Array.isArray(answers[i])?answers[i].join(' / '):(answers[i]||'')}));}
+function persona(){const tally={food:0,active:0,relax:0,social:0,explore:0};QUESTIONS.forEach((q,i)=>{if(q.scores){const z=q.options.indexOf(answers[i]);if(z>=0&&q.scores[z])tally[q.scores[z]]++;}});const types={food:['🍖','먹방 원정대','여행의 시작과 끝은 맛있는 음식! 현지 맛집 레이더가 항상 켜져 있는 미식 여행자예요.'],active:['🎢','풀코스 정복러','홍천에 왔으면 놀고 또 놀아야죠! 짜릿한 체험과 알찬 하루를 사랑하는 에너지 부자예요.'],relax:['🧸','힐링 마스터','쉬는 시간도 소중한 일정! 푹신한 숙소와 여유로운 시간을 사랑하는 몽글몽글 휴식파예요.'],social:['🎉','숙소 파티장','장소보다 중요한 건 함께하는 친구들! 바비큐와 수다, 게임으로 분위기를 살리는 친목왕이에요.'],explore:['📸','감성 탐험가','처음 보는 풍경과 뜻밖의 장소에 설레는 타입! 여행의 순간을 차곡차곡 수집해요.']};const sorted=Object.keys(tally).sort((a,b)=>tally[b]-tally[a]);return{key:sorted[0],tally,types,sorted};}
+function result(){const p=persona();$('result-emoji').textContent=p.types[p.key][0];$('result-title').textContent=p.types[p.key][1];$('result-sub').textContent=p.types[p.key][2];const el=$('traits');el.innerHTML='';const cats=[['🍽️ 먹거리',2],['🎢 하고 싶은 활동',7],['🏡 숙소 시설',14],['🌿 여행 방식',16]];cats.forEach(([title,num])=>{const t=document.createElement('div');t.className='trait';const strong=document.createElement('strong');strong.textContent=title;const value=document.createElement('span');value.textContent=Array.isArray(answers[num])?answers[num].join(' · '):answers[num]||'-';t.append(strong,value);el.append(t);});const a=(i)=>Array.isArray(answers[i])?answers[i].join(', '):answers[i]||'-';const info=QUESTIONS.findIndex(q=>q.cat==='💌 마지막 여행 정보');$('report').textContent=`🧡 ${a(info)} 님의 여행 메모\n🚗 운전: ${a(info+1)}\n💰 예산 상한: ${a(info+4)}\n⭐ 필수 활동: ${a(info+5)}`;$('report').style.whiteSpace='pre-line';$('save-status').textContent=SHEET_WEB_APP_URL?'구글 시트 자동 전송이 설정되어 있어요. 전송 결과는 아래에서 확인하세요.':'📌 현재 테스트는 HTML 단독 버전입니다. 답변은 이 브라우저에 저장되며, 자동으로 관리자에게 전달되지 않아요. 아래 CSV 저장 버튼으로 응답 파일을 받을 수 있습니다.';page('result');if(SHEET_WEB_APP_URL)submitToSheet(p);}
+async function submitToSheet(p){const payload={submittedAt:new Date().toISOString(),nickname:answers[QUESTIONS.findIndex(q=>q.cat==='💌 마지막 여행 정보')],persona:p.types[p.key][1],answers:collect()};try{await fetch(SHEET_WEB_APP_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)});$('save-status').textContent='📮 서버로 전송을 시도했어요. 브라우저 보안상 이 화면에서 실제 시트 기록 성공 여부는 확인할 수 없습니다.';}catch(e){$('save-status').textContent='⚠️ 시트 전송을 시도하지 못했어요. CSV를 저장하고 관리자에게 전달해 주세요.';}}
+function csv(){const p=persona();const rows=[['응답 시각','이름/닉네임','여행 유형',...QUESTIONS.map((q,i)=>`Q${i+1} ${q.q}`)],[new Date().toLocaleString('ko-KR'),answers[QUESTIONS.findIndex(q=>q.cat==='💌 마지막 여행 정보')],p.types[p.key][1],...QUESTIONS.map((q,i)=>Array.isArray(answers[i])?answers[i].join(' / '):answers[i]||'')]];return '\ufeff'+rows.map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(',')).join('\r\n');}
+function filename(){return '홍천여행_취향응답_'+String(answers[QUESTIONS.findIndex(q=>q.cat==='💌 마지막 여행 정보')]||'익명').replace(/[^a-zA-Z0-9가-힣_-]/g,'_').slice(0,30)+'.csv';}
+CATS.forEach(c=>{const el=document.createElement('div');el.className='road';const e=document.createElement('span');e.textContent=c[0];el.append(e,document.createTextNode(c[1]));$('roadmap').appendChild(el);});
+$('start').addEventListener('click',()=>{idx=QUESTIONS.findIndex((q,i)=>!valid(i));if(idx<0)idx=0;render();page('quiz');});
+$('prev').addEventListener('click',()=>{if(idx===0)return page('intro');idx--;render();window.scrollTo(0,0);});
+$('next').addEventListener('click',()=>{if(!valid(idx))return warn(QUESTIONS[idx].type==='multi'?'하나 이상 골라주세요 💗':'답변을 입력하거나 선택해주세요 💗');if(idx<QUESTIONS.length-1){idx++;render();window.scrollTo(0,0);}else result();});
+$('edit').addEventListener('click',()=>{idx=0;render();page('quiz');});
+$('download').addEventListener('click',()=>{const blob=new Blob([csv()],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename();document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);showToast('내 응답 CSV 파일을 저장했어요!');});
+$('share').addEventListener('click',async()=>{const p=persona(),s=`🐻 홍천 2박 3일 여행 테스트!\n내 여행 캐릭터는 ${p.types[p.key][0]} ${p.types[p.key][1]}\n${p.types[p.key][2]}`;try{if(navigator.share)await navigator.share({title:'홍천 여행 취향 테스트',text:s,url:location.href});else if(navigator.clipboard){await navigator.clipboard.writeText(s+'\n'+location.href);showToast('결과가 복사됐어요!');}else showToast('공유 기능을 사용할 수 없는 브라우저예요.');}catch(e){if(e.name!=='AbortError')showToast('공유에 실패했어요.');}});
+$('reset').addEventListener('click',()=>{if(confirm('작성한 답변을 모두 지우고 다시 시작할까요?')){answers={};persist();idx=0;page('intro');}});
+</script>
+</body>
+</html>
